@@ -1,0 +1,6 @@
+/*Los modulos solo hashean los nombres de las clases. NO de los elementos*/
+.header {
+    display: flex;
+    justify-content: center; /*Alinea horizontalmente*/
+    align-items: center; /*Alinea verticalmente*/
+}
