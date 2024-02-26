@@ -8,7 +8,7 @@ function App() {
   console.log('Render de inicio de App')
   return (
     <>
-      <ItemListContainer greeting='Bienvenido al E-Commerce'/>
+      <ItemListContainer greeting='Bienvenido al E-Commerce de DataSolutions Argentina'/>
       <NavBar />
 {/*       <Button label='Ver más' callback={()=>console.log('Ver más')}/>
       <Button label='Filtrar' callback={()=>console.log('Filtrar')}/>
