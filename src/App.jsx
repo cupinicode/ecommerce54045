@@ -1,13 +1,11 @@
 import './App.css'
-import MercadoLibre from "./components/MercadoLibre/MercadoLibre"
-import { useState, useEffect } from "react" // un array.  [1] estado   [2] funcion que lo cambia
+import ItemCount from './components/ItemCount/ItemCount'
 
 const  App = () => {
-  const [show, setShow] = useState(false)
 
   return (
     <>
-      <MercadoLibre />
+      < ItemCount initValue={84}/>
     </>
   )
   
